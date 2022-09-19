@@ -161,13 +161,16 @@ img{
 }
 
 .testimonial-text{
-    background-color: white;
+
     width: 40%;
     position: absolute;
     z-index: 100;
     margin-left: 3%;
     top: 60%;
-    opacity: 0.8; 
+    padding: 2px;
+    backdrop-filter: blur(7px);
+    color: white;
+
 
 }
 
