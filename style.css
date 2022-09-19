@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.all{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+
+
+}
+
+.content{
+    margin: auto;
+    width: 92%;
+    height: 85%;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    
+}
+
+
+.main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+    
+
+}
+
+.main *{
+  margin: auto;
+  text-align: left;
+}
+
+
+
+.main h2{ 
+    margin-top: 20%;
+    font-size: 4em;
+    font-style: bold;
+    background-color: aqua;
+    flex: 0 1 auto;
+    min-width: 0;
+    width: 50%;
+
+  
+}
+
+.main p{
+    font-size: 1em;
+    font-style: bold;
+    background-color: red;
+    padding-bottom: 20px;
+    flex: 1 1 0;
+    min-width: 0;
+    width: 50%;
+    flex: 0 2 auto;
+    
+}
+
+ .form{
+
+    height: 10em;
+    size: 3em;
+    background-color: green;
+    flex: 1 1 0;
+    min-width: 0;
+    width: 50%;
+    font-size: 1.4em;
+    
+} 
+
+
+
+.form-element{
+    width: 50%;
+
+    -ms-transform: scale(2); /* Internet Explorer */
+    -moz-transform: scale(2); /* FireFox */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+
+    transform: scale(2);
+    padding: 30px;
+}
+
+
+.remember-forgot{
+    background-color: orange;
+}
+
+.form-element-checkbox{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.remember-forgot a{
+    display: inline;
+    float: right;
+    padding-right: 10px;
+}
+
+.sign-in{
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+[type="submit"]{
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+.testimonial{
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+figure{
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.testimonial-text{
+    background-color: pink;
+    box-sizing: content-box;
+    width: 100%;
+    position: relative;
+    top: -50%;
+
+} 
